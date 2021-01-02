@@ -1,0 +1,29 @@
+{
+  "name": "music_app",
+  "version": "1.0.0",
+  "description": "Music application that you can listen musics you uploaded",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrokhimbek/Music_app.git"
+  },
+  "author": "Ibrokhimbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibrokhimbek/Music_app/issues"
+  },
+  "homepage": "https://github.com/Ibrokhimbek/Music_app#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0"
+  }
+}
